@@ -11,7 +11,7 @@ jobs:
         uses: jenkey2011/vuepress-deploy@master
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          TARGET_REPO: tassiofront/test-ghpages
-          TARGET_BRANCH: gh_pages
+          TARGET_REPO: tassiofront/test-ghpages-deploy
+          TARGET_BRANCH: main
           BUILD_SCRIPT: npm i && npm run build:docs
           BUILD_DIR: docs/.vuepress/dist/
