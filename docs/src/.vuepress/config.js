@@ -46,6 +46,10 @@ module.exports = {
         link: '/teste/'
       },
       {
+        text: 'Fluxos',
+        link: '/flow/'
+      },
+      {
         text: 'VuePress',
         link: 'https://v1.vuepress.vuejs.org'
       }
