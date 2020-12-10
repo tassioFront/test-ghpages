@@ -5,6 +5,7 @@ module.exports = {
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
   title: 'PROJECT NAME',
+  base: '/test-ghpages/',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -27,6 +28,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
+    smoothScroll: true,
     repo: '',
     editLinks: false,
     docsDir: '',
