@@ -19,4 +19,4 @@ npm install
 npm run dev
 ```
 
-App will run at `http://localhost:8080/`
+App will run at `http://localhost:8080/test-ghpages/`
